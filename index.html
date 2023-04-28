@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Froud Azwez</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Froud Azwez</h1>
+		<h3>L'ordinateur représente l'impaire. Le joueur représente le pair.</h3>
+	</header>
+	<section>
+		<form name="f">
+			<fieldset>
+				<legend>Choix du joueur : </legend> 
+				<input type="radio" name="choixj" id="j0" checked>
+				<img src="images/j0.jpg" alt="j0">
+
+				<input type="radio" name="choixj" id="j1">
+				<img src="images/j1.jpg" alt="j1">
+
+				<input type="radio" name="choixj" id="j2">
+				<img src="images/j2.jpg" alt="j2">
+
+				<input type="radio" name="choixj" id="j3">
+				<img src="images/j3.jpg" alt="j3">
+				
+				<input type="radio" name="choixj" id="j4">
+				<img src="images/j4.jpg" alt="j4">
+				
+				<input type="radio" name="choixj" id="j5">
+				<img src="images/j5.jpg" alt="j5">
+
+			</fieldset>
+			<fieldset>
+				<legend>Choix de l'ordinateur : </legend> 
+				<img src="images/interrogation.png" alt="interrogation" id="choixo">
+			</fieldset>
+			<div>
+				<input type="button" name="Jouer" id="Jouer" value="Jouer" onclick="clickJouer()">
+				<input type="reset" name="Annuler" id="Annuler" value="Annuler">
+			</div>
+		</form>
+		<div id="resultat"></div>
+		<p id="gagner"> GOOOOD : Vous avez gagné !! </p>
+		<p id="perdu"> PERDU :( </p>
+	</section>
+	<script src="script.js"></script>
+	
+
+</body>
+</html>
